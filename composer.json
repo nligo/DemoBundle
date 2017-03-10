@@ -1,0 +1,23 @@
+{
+    "name": "nligo/demo-bundle",
+    "type": "symfony-bundle",
+    "description": "Symfony DemoBundle",
+    "keywords": ["Symfony Demo"],
+    "homepage": "http://www.nligo.com",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "coffey",
+            "email": "coffey@nligo.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.2",
+        "symfony/framework-bundle": "2.*",
+        "symfony/security-bundle": "2.*"
+    },
+    "autoload": {
+        "psr-0": { "Nligo\\DemoBundle": "" }
+    },
+    "target-dir": "Nligo/DemoBundle"
+}
