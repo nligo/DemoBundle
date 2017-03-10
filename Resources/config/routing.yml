@@ -1,0 +1,3 @@
+nligo_demo_homepage:
+    path:     /
+    defaults: { _controller: NligoDemoBundle:Default:index }
